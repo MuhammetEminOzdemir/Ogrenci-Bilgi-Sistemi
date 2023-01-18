@@ -53,3 +53,18 @@ Yönetici:
   
   • Duyuru ekleme gibi yönetici işlemlerini yapabilecektir. 
   
+  
+  Örnek birkaç görsel diğer görseller dosya ierisinde mevcuttur.
+  
+  
+![Ekran Görüntüsü-1](https://user-images.githubusercontent.com/80462839/213292654-08e33774-5405-444e-b450-6b0022d37bfa.png)
+
+
+![Ekran Görüntüsü-9](https://user-images.githubusercontent.com/80462839/213292807-a254ef68-4c4a-43a4-8e36-19a9abd3e6d0.png)
+
+
+![Ekran Görüntüsü-12](https://user-images.githubusercontent.com/80462839/213292833-20ed1aad-9dba-4072-a607-3440fda5ed6d.png)
+
+
+
+  
