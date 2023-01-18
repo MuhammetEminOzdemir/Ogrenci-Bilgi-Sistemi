@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/ders_listeleme"
+    android:title="Dersler">
+</item>
+
+    <item
+        android:id="@+id/not_goruntuleme"
+        android:title="Notlar">
+    </item>
+
+    <item
+        android:id="@+id/yemek_listesi"
+        android:title="Yemek Listesi">
+    </item>
+    <item
+        android:id="@+id/duyurular"
+        android:title="Duyurular">
+    </item>
+    <item
+        android:id="@+id/cik"
+        android:title="Çıkış Yap">
+
+    </item>
+
+</menu>

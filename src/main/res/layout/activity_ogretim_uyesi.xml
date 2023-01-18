@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/arkaplan"
+    tools:context=".ogretimUyesiActivity">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="407dp"
+        android:layout_height="120dp"
+        android:text="Öğretim Üyesi Bilgi Ekranı"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold|italic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/satirCardView"
+        android:layout_width="240dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginLeft="90dp"
+        app:cardCornerRadius="30dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_200"
+            android:onClick="dersListeleme"
+            android:padding="25dp">
+
+            <TextView
+                android:id="@+id/textViewSatir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Ders Listeleme"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp">
+
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/satirCardView2"
+        android:layout_width="240dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="90dp"
+        app:cardCornerRadius="30dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_200"
+            android:onClick="notGirme"
+            android:padding="25dp">
+
+            <TextView
+                android:id="@+id/textViewSatir2"
+                android:layout_width="186dp"
+                android:layout_height="85dp"
+
+                android:text="Not Girme /Güncelleme"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="-6dp">
+
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/satirCardView3"
+        android:layout_width="240dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="90dp"
+        app:cardCornerRadius="30dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_200"
+            android:onClick="duyuru"
+            android:padding="25dp">
+
+            <TextView
+                android:id="@+id/textViewSatir3"
+                android:layout_width="211dp"
+                android:layout_height="33dp"
+
+                android:text="Duyuru Ekle"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="-12dp"
+                tools:layout_editor_absoluteY="16dp">
+
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="22dp"
+    android:layout_marginLeft="170dp">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonarkaplan"
+        android:onClick="cikisYap"
+        android:text="Çıkış yap"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
